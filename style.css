@@ -1,0 +1,165 @@
+* body{
+    background: #ffffff;
+    margin: 0;
+	padding: 0;
+	border: 0
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: arial;
+    width: 100%;
+}
+
+.logo{
+    margin-top: 25px;
+    margin-right: 400px;
+}
+
+.cabecalho1{
+    margin-top: 40px;
+    margin-right: 100px;
+    justify-content: flex-end;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.cabecalho1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown{
+    margin: 0px;
+}
+
+.home{
+    outline: none;
+    font-weight: 600;
+}
+
+.botaologin{
+    color: #fff;
+    width: 100px;
+    background-color: blue;
+    border: 2px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.botaologin:hover{
+    color: #fff;
+}
+
+.Meio{
+    background-image: url(background2.png);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10rem;
+    background-size: cover;
+}
+
+.Meio p{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #111;
+}
+
+.Meio h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #111;
+}
+
+.Meio h4{
+    margin-top: 20px;
+    font-weight: 700;
+    color: #111;
+}
+
+.Meio button{
+    margin-top: 10px;
+    background-color: yellow;
+    padding: 1rem 4rem 1rem 2rem;
+    border-radius: 5px;
+    color: black;
+    border: 2px;
+    font-weight: 700;
+}
+
+.Features{
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.titulo p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    background-color: rgba(52, 234, 234, 0.444);
+    opacity: 10;
+    padding: 0rem;
+    border-radius: 5px;
+    color: darkslategray;
+    border: 2px;
+    font-weight: 700;
+}
+
+.titulo h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: 700;
+}
+
+.card{
+    height: 300px;
+    
+}
+.chuchu{
+    width: 500px;
+    border:3px solid black;
+}
+.batata{
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.container3{
+    background-image: url(background1.png);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    margin-top: 5rem;
+}
+
+.text-cta h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 90px;
+    color: #fff;
+}
+
+.text-cta button{
+    margin-top: 30px;
+    border: none;
+    background-color: yellow;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+}
+
+
