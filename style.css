@@ -83,10 +83,8 @@ header{
 
 .Meio button{
     margin-top: 10px;
-    background-color: yellow;
-    padding: 1rem 4rem 1rem 2rem;
+    background-color: rgb(234, 192, 4);
     border-radius: 5px;
-    color: black;
     border: 2px;
     font-weight: 700;
 }
@@ -118,23 +116,35 @@ header{
     font-weight: 700;
 }
 
-.card{
-    height: 300px;
-    
+.card1{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
-.chuchu{
-    width: 500px;
-    border:3px solid black;
+
+.card2{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
-.batata{
-    justify-content: space-around;
+
+.card3{
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.container3{
+    gap: 2rem;
+    justify-content: center;
     text-align: center;
     display: flex;
     align-items: center;
     margin-top: 20px;
+    border-radius: 5px;
 }
 
-.container3{
+.container4{
     background-image: url(background1.png);
     background-position: center;
     background-size: cover;
@@ -155,11 +165,101 @@ header{
 .text-cta button{
     margin-top: 30px;
     border: none;
-    background-color: yellow;
+    background-color: rgb(234, 192, 4);
     padding: 1rem 2rem 1rem 2rem;
     border-radius: 5px;
     color: black;
     font-weight: 700;
 }
+
+.Contato{
+    display: flex;
+    gap: 5rem;
+    background-color: rgb(15, 10, 46);
+    padding: 8rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+.meio-contato h3{
+    color: #fff;
+    font-size: 23px;
+    margin-bottom: 1.6rem;
+}
+
+.meio-contato h5{
+    font-size: 15px;
+    font-weight: 600;
+    color: #555;
+}
+
+.meio-contato li a{
+    display: block;
+    text-decoration: none;
+    color: #555;
+    font-weight: 550;
+    transition: 0.35s ease;
+}
+
+.meio-contato2{
+    color: #fff;
+    font-size: 50px;
+}
+
+.meio-contato2 input{
+    width: 240px;
+    height: 35px;
+    background: #605f5f;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    background: rgb(234, 192, 4);
+    border: none;
+    color: #111;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.btn:hover{
+    background: #fff;
+}
+
+.btn a{
+    text-decoration: none;
+    color: #111;
+    font-weight: 550;
+}
+
+.last-text{
+    background-color: rgb(15, 10, 46);
+    display: flex;
+    gap: 5rem;
+}
+
+.last-text text{
+    display: flex;
+    gap: 5rem;
+}
+
+.last-text p{
+    color: #555;
+    font-weight: 550;
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 8rem;
+}
+
 
 
